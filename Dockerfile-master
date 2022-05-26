@@ -1,0 +1,6 @@
+# Use vinsdocker base image
+FROM jmeter-base
+MAINTAINER TestAutomationGuru
+
+# Ports to be exposed from the container for JMeter Master
+EXPOSE 60000
